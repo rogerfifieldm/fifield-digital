@@ -616,3 +616,14 @@ section {
     width: min(100%, 300px);
   }
 }
+
+/* Final Fifield Digital brand logo */
+.brand-final { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.final-brand-logo { display: block; width: clamp(135px, 18vw, 205px); height: auto; object-fit: contain; }
+@media (max-width: 650px) { .final-brand-logo { width: 155px; } }
+
+/* Freelance brand attribution */
+.brand-identity { display: inline-flex; flex-direction: column; align-items: center; gap: 0; }
+.brand-byline { color: #a8dff3; font-size: 11px; font-weight: 600; letter-spacing: .09em; line-height: 1.2; margin-top: -2px; }
+.footer-disclosure { display: inline-block; margin-left: 8px; }
+@media (max-width: 650px) { .brand-byline { font-size: 10px; } .footer-disclosure { display: block; margin: 6px 0 0; } }
