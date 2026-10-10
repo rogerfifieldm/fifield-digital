@@ -1,5 +1,5 @@
 :root {
-  color-scheme:dark; 
+  color-scheme:dark;
   --bg:#05080f;
   --panel:#0b1424;
   --line:#25364d;
@@ -652,3 +652,9 @@ section, .section { scroll-margin-top: 104px; }
 /* Roger Fifield freelance identity */
 .freelance-brand{flex-direction:row;gap:12px;align-items:center}.brand-words{display:flex;flex-direction:column;gap:3px}.brand-monogram{display:grid;place-items:center;width:53px;height:53px;border:1px solid #4d90c8;border-radius:13px;background:linear-gradient(145deg,#eef5ff,#8ba6c8 48%,#1269d7 51%,#27c6fa);color:#06162a;font-weight:950;font-style:italic;font-size:24px;letter-spacing:-.14em;padding-right:5px;box-shadow:0 4px 18px #086ac633}.site-header nav{gap:19px}.section .muted{color:var(--muted)}.card .text-link{color:var(--cyan);font-weight:700}.about p{max-width:920px}.hero-media{background:radial-gradient(circle at center,#1165b833,transparent 68%),linear-gradient(145deg,#071e38,#102d51 45%,#07101c);border:1px solid #21486d;border-radius:20px;min-height:280px;position:relative}.hero-media:after{content:'</>  { build • test • deliver }';position:absolute;inset:0;display:grid;place-items:center;color:#7fd6ff;font:700 clamp(18px,2.2vw,30px) monospace;text-shadow:0 0 25px #258af0}
 @media(max-width:900px){.site-header nav{gap:12px;font-size:12px}}@media(max-width:650px){.brand-monogram{width:42px;height:42px;font-size:19px}.freelance-brand-name{font-size:17px}.freelance-brand-role{font-size:9px}.site-header nav.open{display:flex}}
+
+/* Freelance contact links */
+.contact-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin: 20px 0 14px; }
+.contact .email a, .contact .business-phone a { color: #73dafa; text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.contact .business-phone { margin-top: 6px; }
+@media (max-width: 480px) { .contact-actions .button { width: 100%; text-align: center; } }
